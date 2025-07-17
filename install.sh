@@ -22,3 +22,6 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/mas
 
 # Setting zsh theme to half-life
 sed -i -e 's/ZSH_THEME="robbyrussell"/ZSH_THEME="half-life"/g' ~/.zshrc
+
+# Source the updated .zshrc to apply changes
+source $HOME/.zshrc
