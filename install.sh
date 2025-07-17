@@ -14,3 +14,5 @@ echo "source /usr/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh" >> 
 # Setup ZSH autosuggestions
 sudo apt install -y zsh-autosuggestions
 echo "source /usr/share/zsh-autosuggestions/zsh-autosuggestions.zsh" >> $HOME/.zshrc
+
+source $HOME/.zshrc
