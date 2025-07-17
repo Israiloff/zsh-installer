@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Update package list
+sudo apt update
+
 # Install necessary packages
 sudo apt install zsh
 
