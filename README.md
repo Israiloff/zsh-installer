@@ -2,13 +2,13 @@
 
 ## Overview
 
-The Jvim Installer provides a script to set up a fully configured [Neovim](https://neovim.io) Java IDE environment directly on your system. It includes JDK, Python, and essential development tools, along with pre-configured Neovim settings for an optimized coding experience.
+The ZSH Installer provides a script to set up a fully configured ZSH environment with oh-my-zsh and various plugins. It simplifies the process of installing ZSH and enhances your terminal experience with useful features.
 
 ## Getting Started
 
 ### 1. Install Jvim Using One Command
 
-Run the following command to install zsh and related oh-my-zsh plugins:
+Run the following command to install ZSH and related oh-my-zsh plugins:
 
 ```sh
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/Israiloff/zsh-installer/master/install.sh)"
@@ -23,3 +23,9 @@ wget https://raw.githubusercontent.com/Israiloff/zsh-installer/master/install.sh
 chmod +x install.sh
 ./install.sh
 ```
+
+### 3. Features
+- **ZSH**: A powerful shell with advanced features.
+- **Oh-My-Zsh**: A framework for managing ZSH configurations.
+- **Auto-suggestions**: Provides suggestions based on command history.
+- **Syntax highlighting**: Enhances readability of commands.
