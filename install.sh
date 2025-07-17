@@ -1,10 +1,13 @@
 #!/bin/bash
 
 # Update package list
-sudo apt update
+sudo apt -y update
+
+# Install git
+sudo apt install -y git
 
 # Install necessary packages
-sudo apt install zsh
+sudo apt install -y zsh
 
 # Install and configure Oh My Zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
